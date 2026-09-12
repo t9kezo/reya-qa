@@ -17,7 +17,8 @@
 | Metric | Value |
 | --- | --- |
 | Testing Type | Manual, Functional, End-to-End, Cross-platform, Regression |
-| Test Cases Executed | 124 (11 passed, 109 failed, 2 blocked, 2 not executed) |
+| Test Cases Executed | 124 (11 passed, 109 on hold, 2 blocked, 2 not executed) |
+| Proposed Coverage (next cycle) | 36 |
 | **Total Bugs Found** | **109** |
 | Open | 109 |
 | Severity — Critical | 20 |
