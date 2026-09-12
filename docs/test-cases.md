@@ -8,9 +8,9 @@
 
 | Metric | Value |
 | --- | --- |
-| Total Test Cases (Executed) | 124 |
+| Total Test Cases (Executed) | 126 |
 | Passed | 11 |
-| On Hold (open defect) | 109 (each linked to a defect) |
+| On Hold (open defect) | 111 (each linked to a defect) |
 | Blocked | 2 |
 | Not Executed | 2 |
 | Executed Pass Rate | 9% |
@@ -187,6 +187,13 @@ Suggested scenarios the app should be checked against. Not yet executed.
 | RE_TC_158 | Emergency/help button behavior | Android | 1. Tap emergency button. | Help/SOS flow initialises | Proposed |
 | RE_TC_159 | Payment failure during trip | Android | 1. Simulate declined payment. | Clear error + retry option, no trip block | Proposed |
 | RE_TC_160 | Ride history sync web ↔ mobile | Web + Android | 1. Take a ride, check both platforms. | History consistent across platforms | Proposed |
+
+## Executed — Ride App Passenger Module (Cycle 2)
+
+| TC ID | Test Case | Environment | Expected Result | Actual Result | Status | Linked Bug |
+| --- | --- | --- | --- | --- | --- | --- |
+| RE_TC_161 | Passenger Name character limit | Android | Limit enforced with validation | No limit; unlimited text accepted | **On Hold** | BUG-110 |
+| RE_TC_162 | Passenger name hidden on Submit button | Android | Generic button label | Name shown on button | **On Hold** | BUG-111 |
 
 ---
 *Prepared by Abhishek Kanwar — for portfolio demonstration purposes.*

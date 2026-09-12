@@ -708,21 +708,63 @@
 
 ---
 
+## BUG-110: Ride App — Passenger Name field has no character limit
+
+| Field | Value |
+| --- | --- |
+| Bug ID | BUG-110 |
+| Module | Ride App — Passenger Details |
+| Severity | Minor |
+| Priority | Medium |
+
+**Steps to Reproduce**
+1. Open the ride app booking flow. 2. Enter an extremely long string in the Passenger Name field.
+
+**Expected Result**
+A character limit is enforced with validation on the Passenger Name field.
+
+**Actual Result**
+No character limit exists; users can enter unlimited text in the Passenger Name field.
+
+---
+
+## BUG-111: Ride App — Passenger name shown on the Submit button
+
+| Field | Value |
+| --- | --- |
+| Bug ID | BUG-111 |
+| Module | Ride App — Booking (Submit Button) |
+| Severity | Minor |
+| Priority | Medium |
+
+**Steps to Reproduce**
+1. Open the ride app booking flow. 2. Enter a passenger name. 3. Observe the Submit button text.
+
+**Expected Result**
+The Submit button shows a generic label (e.g., "Submit") — the passenger's name should not appear on it.
+
+**Actual Result**
+The passenger's name is displayed on the Submit button, which is incorrect and potentially confusing to the user.
+
+---
+
 ## Summary (Part 2)
 
 | Bug ID | Module | Severity | Status |
 | --- | --- | --- | --- |
 | BUG-056 to BUG-109 | See individual sections above | — | Open |
+| BUG-110 | Ride App — Passenger Details | Minor | Open |
+| BUG-111 | Ride App — Booking (Submit Button) | Minor | Open |
 
 ---
 
-## Overall Summary (BUG-001 to BUG-109)
+## Overall Summary (BUG-001 to BUG-111)
 
 | Severity | Count |
 | --- | --- |
 | Critical | 20 |
 | Major | 33 |
-| Minor | 56 |
-| **Total** | **109** |
+| Minor | 58 |
+| **Total** | **111** |
 
-All 109 defects remain **Open** pending development fixes and re-testing.
+All 111 defects remain **Open** pending development fixes and re-testing.

@@ -17,13 +17,13 @@
 | Metric | Value |
 | --- | --- |
 | Testing Type | Manual, Functional, End-to-End, Cross-platform, Regression |
-| Test Cases Executed | 124 (11 passed, 109 on hold, 2 blocked, 2 not executed) |
+| Test Cases Executed | 126 (11 passed, 111 on hold, 2 blocked, 2 not executed) |
 | Proposed Coverage (next cycle) | 36 |
-| **Total Bugs Found** | **109** |
-| Open | 109 |
+| **Total Bugs Found** | **111** |
+| Open | 111 |
 | Severity — Critical | 20 |
 | Severity — Major | 33 |
-| Severity — Minor | 56 |
+| Severity — Minor | 58 |
 
 ## Key Findings
 
@@ -66,8 +66,10 @@
 
 - [Bug Reports — Part 1 (BUG-001 to BUG-055)](docs/bug-reports.md)
 - [Bug Reports — Part 2 (BUG-056 to BUG-109)](docs/bug-reports-part2.md)
+- [Bug Reports — Part 3: Ride App (BUG-110 to BUG-111)](docs/bug-reports-part2.md#bug-110-ride-app--passenger-name-field-has-no-character-limit)
 - [Test Cases](docs/test-cases.md) — manual test case report
 - [Raw Bug Data](data/bugs.csv) — original defect tracking sheet
+- [Raw Bug Data — Ride App](data/bugs-ride-app.csv) — ride app passenger module defects
 
 ## Test Approach
 
